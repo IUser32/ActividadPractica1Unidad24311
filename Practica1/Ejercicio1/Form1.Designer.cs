@@ -28,31 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
-            // button1
+            // label1
             // 
-            button1.Location = new Point(427, 28);
-            button1.Name = "button1";
-            button1.Size = new Size(344, 58);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Black", 20.1F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ActiveCaption;
+            label1.Location = new Point(73, 71);
+            label1.Name = "label1";
+            label1.Size = new Size(1937, 89);
+            label1.TabIndex = 0;
+            label1.Text = "Bienvenido a la materia 4311 - Mi nombre es Luis Fortuna.";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            ClientSize = new Size(2039, 192);
+            Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
+        private Label label1;
     }
 }
